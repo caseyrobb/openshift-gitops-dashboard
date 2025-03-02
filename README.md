@@ -1,4 +1,4 @@
-# OpenShift GitOps Dashboard
+## OpenShift GitOps (ArgoCD) Dashboard
 
 ## 📌 Description
 This OpenShift GitOps Dashboard is designed to monitor ArgoCD applications synchronization status, memory & CPU usage, gRPC calls, error codes, and repository management using Grafana. Failed Syncs, application health status, and critical ArgoCD indicators are analyzed in detail on this dashboard.
@@ -23,4 +23,15 @@ This OpenShift GitOps Dashboard is designed to monitor ArgoCD applications synch
 3. Upload the JSON file or paste its content
 4. Select your data source (Prometheus)
 5. Save the dashboard and start monitoring!
+
+
+## 🔄 UPCOMING UPDATES  
+
+- **📊 User-Based Sync Tracking** → A new metric panel will be added to monitor synchronization actions performed by specific users on ArgoCD.  
+- **🔍 Search and Filtering Feature** → Advanced search and filtering options will be added to tables on the dashboard.  
+- **📉 More Detailed Memory and CPU Usage Graphs** → Detailed pod-level analysis will be included in existing resource usage graphs.  
+- **🚨 Error and Warning Alerts** → A Grafana alert mechanism will be added for ArgoCD synchronization errors.  
+- **🌍 Multi-Namespace Support** → The ability to monitor applications across multiple namespaces simultaneously will be introduced.  
+- **📌 Dashboard Performance Optimization** → Queries will be optimized to reduce dashboard load time.  
+
 
